@@ -41,7 +41,7 @@ do
     }
     catch (OverflowException)
     {
-        Console.WriteLine("Entered number must lower than 256.");
+        Console.WriteLine("The entered number must be between 1 and 255");
     }
     finally
     {
