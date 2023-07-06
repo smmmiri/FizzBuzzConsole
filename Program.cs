@@ -47,6 +47,7 @@ do
     {
         Console.WriteLine("\nDo you want to continue? (Y/N)");
         continueInput = Console.ReadLine();
+        Console.WriteLine();
     }
 }
 while (continueInput.ToLower() != "n");
