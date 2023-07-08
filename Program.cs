@@ -10,7 +10,9 @@ do
     {
         var number = byte.Parse(input);
         if (number == 0)
+        {
             throw new OverflowException();
+        }
 
         PlayFizzBuzz(number);
     }
@@ -40,19 +42,33 @@ static void PlayFizzBuzz(byte number)
     for (int i = 1; i < number + 1; i++)
     {
         if (i % 15 == 0)
+        {
             Console.Write("FizzBuzz");
+        }
         else if (i % 3 == 0)
+        {
             Console.Write("Fizz");
+        }
         else if (i % 5 == 0)
+        {
             Console.Write("Buzz");
+        }
         else
+        {
             Console.Write($"{i}");
+        }
 
         if (i == number)
+        {
             Console.WriteLine(".");
+        }
         else if (i % 10 == 0)
+        {
             Console.WriteLine(", ");
+        }
         else
+        {
             Console.Write(", ");
+        }
     }
 }
