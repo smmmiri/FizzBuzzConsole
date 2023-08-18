@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This console application run the FizzBuzz game up to 255.
+This console application runs the FizzBuzz game up to 255.
 
 ## What is this code good for practicing?
 
